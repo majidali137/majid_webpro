@@ -2,10 +2,11 @@
 import { useEffect, useRef } from 'react';
 import {  SiPostgresql, SiMysql, SiMongodb, SiNodedotjs, SiAppwrite, SiTwilio } from 'react-icons/si';
 import { RiSupabaseFill } from "react-icons/ri";
+import { FaPhp } from "react-icons/fa";
 
 
 const icons = [
-    SiPostgresql, SiMysql, SiMongodb, SiNodedotjs, SiAppwrite, SiTwilio, RiSupabaseFill
+    SiPostgresql, SiMysql, SiMongodb, SiNodedotjs, SiAppwrite, SiTwilio, RiSupabaseFill,FaPhp
 ];
 
 const BackendMovingBar = () => {
@@ -21,7 +22,7 @@ const BackendMovingBar = () => {
       // Function to animate the scrolling
       const step = () => {
         if (!reset && element.scrollLeft < element.scrollWidth - element.clientWidth) {
-          element.scrollLeft += 2; // Adjust scrolling speed here
+          element.scrollLeft += 1.5; // Adjust scrolling speed here
         } else {
           element.scrollLeft = 0;
           reset = false;
@@ -39,7 +40,7 @@ const BackendMovingBar = () => {
     <div ref={scrollContainer} className="overflow-hidden whitespace-nowrap h-28 relative ">
       {Array(10).fill([...icons]).flat().map((Icon, index) => ( // Increase number of repeats for longer sequences
           <div className="inline-block mx-4">
-          <Icon className="sm:text-[80px] text-[30px]" key={index} />
+          <Icon className="sm:text-[80px] text-[40px]" key={index} />
         </div>
       ))}
     </div>

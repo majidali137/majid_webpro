@@ -2,11 +2,11 @@
 import { useEffect, useRef } from 'react';
 import { FaHtml5, FaWordpressSimple } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiTypescript, SiReact, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
+import { SiTypescript, SiReact, SiTailwindcss, SiNextdotjs, SiAstro } from 'react-icons/si';
 import { BsBootstrap } from 'react-icons/bs';
 
 const icons = [
-  FaHtml5, IoLogoJavascript, SiTypescript, SiReact, SiTailwindcss, SiNextdotjs, BsBootstrap, FaWordpressSimple
+  FaHtml5, IoLogoJavascript, SiTypescript, SiReact, SiTailwindcss, SiNextdotjs, BsBootstrap, FaWordpressSimple,SiAstro
 ];
 
 const FrontendMovingBar = () => {
@@ -42,7 +42,7 @@ const FrontendMovingBar = () => {
     <div ref={scrollContainer} className="overflow-hidden whitespace-nowrap h-28 relative">
       {Array(10).fill([...icons]).flat().map((Icon, index) => (
        <div className="inline-block mx-4">
-       <Icon className="sm:text-[80px] text-[30px]" key={index} />
+       <Icon className="sm:text-[80px] text-[40px]" key={index} />
      </div>
       ))}
     </div>
