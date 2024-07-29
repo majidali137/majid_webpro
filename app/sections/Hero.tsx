@@ -27,8 +27,8 @@ const Hero = () => {
                             "mb-1 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-10 md:text-[60px] lg:text-[80px]"
                         }
                         subtitle={"Full Stack Web Developer"}
-                        subClassName="mt-2 sm:mt-1 text-center text-[40px] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px] font-bold leading-[1em] tracking-tighter text-[#bd39ae]"
-                        wordSpace={"mr-[10px]"}
+                        subClassName="mt-2 sm:mt-1 text-center text-[40px] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px] font-bold leading-[1em] tracking-tighter text-[#FFD600]"
+                        wordSpace={"mr-[12px]"}
                         charSpace={"mr-[0.001em]"}
                     />
 

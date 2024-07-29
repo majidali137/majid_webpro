@@ -4,12 +4,14 @@ import {
     SiTailwindcss,
     SiTypescript,
     SiAstro,
-    SiRedux
+    SiRedux,
+    SiMysql
 } from "react-icons/si";
 import { DiMongodb } from "react-icons/di"
 import { FaWordpress } from "react-icons/fa";
 import {IconType} from "react-icons";
 import { FaPhp } from "react-icons/fa";
+import { FaElementor } from "react-icons/fa6";
 
 export type ProjectProps = {
   id: number;
@@ -56,17 +58,30 @@ export const projects = [
         id: 2,
         name: "TRT Colombia",
         description:
-            "open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        technologies: [FaWordpress,SiRedux, FaPhp],
-        techNames: ["Wordpress", "Redux", "PHP" ],
-        techLinks: ["https://wordpress.org/", "https://redux.js.org/", "https://php.org/"],
-        github: "https://github.com/",
+            "This website was built with WordPress by using elementor and fully animated.",
+        technologies: [FaWordpress,FaElementor, FaPhp,SiMysql],
+        techNames: ["Wordpress", "Elementor","MySql", "PHP" ],
+        techLinks: ["https://wordpress.org/", "https://elementor.com/", "https://www.mysql.com/", "https://php.org/"],
+        // github: "https://github.com/",
         demo: "https://trtcolombia.com/",
         image: "/trt-colombia.png",
         available: true,
     },
     {
         id: 3,
+        name: "Tulsa Physical Therapy",
+        description:
+            "This website was built with WordPress by using elementor and fully animated.",
+        technologies: [FaWordpress,FaElementor, SiMysql, FaPhp],
+        techNames: ["Wordpress", "Elementor", "MySql", "PHP" ],
+        techLinks: ["https://wordpress.org/", "https://elementor.com/", "https://www.mysql.com/","https://php.org/"],
+        // github: "https://github.com/",
+        demo: "https://vitalitytulsa.com/",
+        image: "/tulsa.png",
+        available: true,
+    },
+    {
+        id: 4,
         name: "Portfolio",
         description:
             "Developed an virtual mall by using Three.js and Typescript..",

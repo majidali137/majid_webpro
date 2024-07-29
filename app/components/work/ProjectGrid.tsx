@@ -9,7 +9,7 @@ const ProjectGrid = () => {
                 <h4
                     className={`text-[26px] font-semibold md:text-[20px] lg:text-[34px] ${"text-[#e4ded7]"}`}
                 >
-          Check out some <span className="text-[#bd39ae]">of my work</span>
+          Check out some <span className="text-[#FFD600]">of my work</span>
                 </h4>
             </div>
 

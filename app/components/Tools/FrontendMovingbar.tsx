@@ -24,7 +24,7 @@ const FrontendMovingBar = () => {
       // Function to animate the scrolling
       const step = () => {
         if (reset && element.scrollLeft > 0) {
-          element.scrollLeft -= 1; // Decrease scrollLeft to move left to right
+          element.scrollLeft -= 0.5; // Decrease scrollLeft to move left to right
         } else {
           element.scrollLeft = maxScroll; // Reset to far right once fully scrolled to the left
           reset = true;
