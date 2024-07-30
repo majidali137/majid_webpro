@@ -145,7 +145,7 @@ const ProgressBar = ({ skill, percentage, color }: ProgressBarProps) => {
 
     return (
         <>
-            <p className='text-white text-[18px] pb-2 px-5 uppercase'>{skill}</p>
+            <p className='text-white text-[14px] sm:text-[18px] pb-2 px-5 uppercase'>{skill}</p>
             <div ref={ref} className="w-full bg-gray-300 rounded-full h-2 overflow-hidden">
         
                 <motion.div

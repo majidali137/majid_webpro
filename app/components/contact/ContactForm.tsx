@@ -192,7 +192,7 @@ export default function ContactForm() {
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
-                            type="submit" disabled={isSubmitting} className={`bg-[#00000061] border-[#FFD600] text-[#FFD600] py-3 px-12 border-2 rounded-xl mt-6 ${isSubmitting ? 'bg-[#00000061] border-[#FFD600] text-[#FFD600] py-3 px-12 border-2 rounded-xl mt-6' : ''}`}>
+                            type="submit" disabled={isSubmitting} className={`bg-[#00000061] border-[#FFD600] text-[#FFD600] w-full sm:max-w-[200px] py-3 px-12 border-2 rounded-xl mt-6 ${isSubmitting ? 'bg-[#00000061] border-[#FFD600] text-[#FFD600] py-3 px-12 border-2 rounded-xl mt-6' : ''}`}>
                             {isSubmitting ? 'Loading...' : 'Submit'}
                         </motion.button >
 

@@ -7,7 +7,7 @@ const ServicesGrid = () => {
         <>
             <div className="max-w-[1200px] mx-auto">
 
-                <div className=" flex flex-col sm:flex-row gap-4 item-center lg:max-w-[1250px]  ">
+                <div className=" flex flex-col sm:flex-row gap-y-12 gap-4 item-center lg:max-w-[1250px]  ">
                     {services.map((service: ServicesProps) => (
                         <ServicesCard
                             id={service.id}
