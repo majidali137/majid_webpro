@@ -1,4 +1,12 @@
 {
+   // Existing configuration...
+   "ignorePatterns": [
+    "next.config.js",
+    "postcss.config.js",
+    "stylelint.config.js",
+    "tailwind.config.js",
+    "**/*.config.js"
+  ],
   "env": {
     "es2021": true,
     "node": true,

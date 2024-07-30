@@ -1,4 +1,4 @@
-"use client"
+"use client";
 // components/BackToTopButton.js
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';

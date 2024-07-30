@@ -59,19 +59,19 @@ const Blur = () => {
 
     return (
         <div
-        style={{
-            position: 'fixed',
-            left: 0,
-            right: 0,
-            bottom: 0,
-            height: '150px',
-            pointerEvents: 'none',
-            zIndex: 50,
-            transition: 'opacity 0.3s',
-            opacity: isVisible ? 1 : 0,
-            backdropFilter: 'blur(32px)',
-            maskImage: 'linear-gradient(to top, black, transparent)'
-        }}
+            style={{
+                position: 'fixed',
+                left: 0,
+                right: 0,
+                bottom: 0,
+                height: '150px',
+                pointerEvents: 'none',
+                zIndex: 50,
+                transition: 'opacity 0.3s',
+                opacity: isVisible ? 1 : 0,
+                backdropFilter: 'blur(32px)',
+                maskImage: 'linear-gradient(to top, black, transparent)'
+            }}
         />
     );
 };

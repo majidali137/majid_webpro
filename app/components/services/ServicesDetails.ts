@@ -21,7 +21,7 @@ export const services = [
         name: "Next Js",
         description:
             "open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-            icon: "/next-js.svg"
+        icon: "/next-js.svg"
       
     },
     {
@@ -38,7 +38,7 @@ export const services = [
         name: "Node Js",
         description:
             "Developed an virtual mall by using Three.js and Typescript..",
-            icon: "/node-js.svg"
+        icon: "/node-js.svg"
        
     },
     {
@@ -46,7 +46,7 @@ export const services = [
         name: "MongoDB",
         description:
             "Developed an virtual mall by using Three.js and Typescript..",
-            icon: "/mongodb.svg"
+        icon: "/mongodb.svg"
     },
    
 ];

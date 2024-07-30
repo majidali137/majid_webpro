@@ -7,10 +7,9 @@ import {
     SiRedux,
     SiMysql
 } from "react-icons/si";
-import { DiMongodb } from "react-icons/di"
-import { FaWordpress } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { FaWordpress , FaPhp } from "react-icons/fa";
 import {IconType} from "react-icons";
-import { FaPhp } from "react-icons/fa";
 import { FaElementor } from "react-icons/fa6";
 
 export type ProjectProps = {
@@ -20,7 +19,7 @@ export type ProjectProps = {
   technologies: IconType[];
   techNames: string[];
   techLinks: string[];
-  github: string;
+  github?: string;
   demo: string;
   image: string;
   available: boolean;

@@ -1,16 +1,13 @@
-import Link from "next/link";
 import { inter } from "../fonts/inter";
 import "../animations/animate.css";
-import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
-import AnimatedWords from "../animations/AnimatedWords";
 import { motion } from "framer-motion";
 import ContactBackground from "../components/background/ContactBackground";
 import React from "react";
 import ContactForm from "../components/contact/ContactForm";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaCheckCircle } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope} from "react-icons/fa";
 import SocialIcon from "../components/contact/SocialIcon";
-import HireMeButton from "../components/contact/HireMeButton";
+
 
 const Contact = () => {
     return (

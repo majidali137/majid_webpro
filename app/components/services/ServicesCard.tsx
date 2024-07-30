@@ -34,13 +34,13 @@ const ServicesCard = ({
                     className="absolute text-white mb-10  md:mb-16 lg:mb-14 " 
                 >
                     <Image
-                    src={icon}
-                    alt={name}
-                    width={100}
-                    height={100}
-                    className="rounded-full mx-auto mt-16 mb-6"
+                        src={icon}
+                        alt={name}
+                        width={100}
+                        height={100}
+                        className="rounded-full mx-auto mt-16 mb-6"
                     
-                />
+                    />
                     <AnimatedTitle
                         text={name}
                         className={
