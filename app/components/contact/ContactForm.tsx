@@ -4,6 +4,7 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { formSchema } from '../../../lib/validation';
 import z from 'zod';
+import { motion } from 'framer-motion';
 
 
 interface FormDataType {
@@ -191,9 +192,12 @@ export default function ContactForm() {
               {errors.message && <p className="error text-red-500 pt-2">{errors.message}</p>}
             </div>
             {/* <button type="submit" className="bg-[#ffd500de] py-3 px-12 text-white rounded-xl mt-6 hover:bg-[#F57F17]">Submit</button> */}
-            <button type="submit" disabled={isSubmitting} className={`bg-[#ffd500de] py-3 px-12 text-white rounded-xl mt-6 ${isSubmitting ? 'bg-[#ffd500de]' : 'hover:bg-[#F57F17]'}`}>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              type="submit" disabled={isSubmitting} className={`bg-[#00000061] border-[#FFD600] text-[#FFD600] py-3 px-12 border-2 rounded-xl mt-6 ${isSubmitting ? 'bg-[#00000061] border-[#FFD600] text-[#FFD600] py-3 px-12 border-2 rounded-xl mt-6' : ''}`}>
               {isSubmitting ? 'Loading...' : 'Submit'}
-            </button>
+            </motion.button >
 
           </div>
         </div>
