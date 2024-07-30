@@ -11,7 +11,7 @@ const Services = () => {
 
         {/* Heading section */}
 
-        <div className="bg-[#0E1016] bg-cover mt-20 sm:mt-32 px-6 max-w-xl mx-auto">
+        <div className="bg-[#0E1016] bg-cover mt-20 sm:mt-32 px-6 max-w-xl mx-auto" id="services">
           <AnimatedTitle
             text={"My Services"}
             className={

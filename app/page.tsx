@@ -16,9 +16,9 @@ import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Tools from "./sections/Tools.tsx";
 import Services from "./sections/Services.tsx";
-import Timeline from "./components/eduction/Timeline.tsx";
+import Timeline from "./components/education/Timeline.tsx";
 import { FaRegCircle } from 'react-icons/fa';
-import Eduction from "./sections/Eduction.tsx";
+import Eduction from "./sections/Education.tsx";
 import Skills from "./sections/Skills.tsx";
 import BackToTopButton from "./components/BackToTopButton/BackToTopButton.tsx";
 
@@ -138,9 +138,9 @@ export default function Home() {
         <Work />
         <Tools />
         <Eduction />
-        <Skills/>
+        <Skills />
         <Contact />
-       
+
         <Footer />
         <BackToTopButton />
       </main>

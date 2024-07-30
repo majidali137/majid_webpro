@@ -1,6 +1,6 @@
 import React from 'react'
 import AnimatedTitle from '../animations/AnimatedTitle'
-import Timeline from '../components/eduction/Timeline'
+import Timeline from '../components/education/Timeline'
 
 const Eduction = () => {
   const stages = [
@@ -34,14 +34,14 @@ const Eduction = () => {
   return (
     <section
       className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center  pb-20  md:pb-44  lg:pb-56"
-      id="eduction"
+      id="education"
     >
 
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
-          text={"My Eduction"}
+          text={"My Education"}
           className={
-            "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
+            "mb-10 text-center text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
           }
           wordSpace={"mr-[14px]"}
           charSpace={"mr-[0.1em]"}
