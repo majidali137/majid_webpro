@@ -20,23 +20,23 @@ const HireMeButton = () => {
     <div className="flex flex-col items-center justify-center  z-30 relative mt-10 sm:mt-0">
 
       <div className="flex space-x-4 mb-14">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
+        <a href="https://www.facebook.com/profile.php?id=100010164333532" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-4  rounded-full bg-[#00000061] border-[#FFD600] border-2">
             <FaFacebook size={30} />
           </motion.div>
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
+        <a href="https://github.com/majidali137" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-4  rounded-full bg-[#00000061] border-[#FFD600] border-2">
             <FaGithub size={30} />
           </motion.div>
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
+        <a href="https://www.fiverr.com/majid_webpro" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-4  rounded-full bg-[#00000061] border-[#FFD600] border-2">
             {/* <TbBrandFiverr size={30}/> */}
             <Image src="/fiverr-1.svg" width={30} height={30} alt='fiverr' />
           </motion.div>
         </a>
-        <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
+        <a href="https://www.linkedin.com/in/majid-ali-b257b2290/" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-4 bg-[#00000061] border-[#FFD600] border-2 rounded-full">
             <CiLinkedin size={30} />
           </motion.div>
