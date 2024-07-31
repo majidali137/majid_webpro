@@ -103,8 +103,8 @@ export default function AnimatedTitle({
                                 animate={ctrls}
                                 variants={wordAnimation}
                                 transition={{
-                                    delayChildren: index * 0.25,
-                                    staggerChildren: 0.05,
+                                    delayChildren: index * 0.001,
+                                    staggerChildren: 0.01,
                                 }}
                                 className={`inline-block whitespace-nowrap ${wordSpace}`}
                             >

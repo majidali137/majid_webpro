@@ -11,7 +11,7 @@ const Hero = () => {
 
         <>
             <motion.section
-                className="relative z-10  h-[100vh] w-full justify-center "
+                className="relative z-10 h-[65vh] sm:h-[100vh] w-full justify-center "
                 id="home"
                 initial="initial"
                 animate="animate"
@@ -19,7 +19,7 @@ const Hero = () => {
                 <HeroBackground />
 
 
-                <div className="mt-10 flex flex-col items-center justify-center sm:mt-0">
+                <div className="mt-10  flex flex-col items-center justify-center sm:mt-14">
 
                     <div
                         className={`relative mt-28 flex flex-col items-center justify-center ${inter.className} pointer-events-none`}

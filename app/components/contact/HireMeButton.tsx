@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaFacebook } from 'react-icons/fa';
-import { CiLinkedin } from "react-icons/ci";;
+import { FaGithub, FaFacebook,FaLinkedin } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 const HireMeButton = () => {
@@ -35,7 +34,7 @@ const HireMeButton = () => {
                 </a>
                 <a href="https://www.linkedin.com/in/majid-ali-b257b2290/" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-4 bg-[#00000061] border-[#FFD600] border-2 rounded-full">
-                        <CiLinkedin size={30} />
+                        <FaLinkedin size={30} />
                     </motion.div>
                 </a>
             </div>
