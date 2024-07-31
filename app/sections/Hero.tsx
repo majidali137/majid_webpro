@@ -11,7 +11,7 @@ const Hero = () => {
 
         <>
             <motion.section
-                className="relative z-10 h-[65vh] sm:h-[100vh] w-full justify-center "
+                className="relative z-10 h-[85vh] sm:h-[100vh] w-full justify-center "
                 id="home"
                 initial="initial"
                 animate="animate"
