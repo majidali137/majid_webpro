@@ -33,7 +33,7 @@ const Contact = () => {
                                 "mb-1 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-10 md:text-[60px] lg:text-[80px]"
                             }
                             subtitle={"How Can I Help You?"}
-                            subClassName="mt-4 sm:mt-1 px-6 text-center text-[40px] sm:text-[35px] md:mb-16 md:text-[45px] lg:text-[50px] font-semibold leading-[1em] tracking-tighter text-[#FFD600]"
+                            subClassName="mt-4 sm:mt-1 px-6 text-center text-[30px] sm:text-[35px] md:mb-16 md:text-[45px] lg:text-[50px] font-semibold leading-[1em] tracking-tighter text-[#FFD600]"
 
                             wordSpace={"mr-[12px]"}
                             charSpace={"mr-[0.001em]"}
