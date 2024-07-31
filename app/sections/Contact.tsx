@@ -47,11 +47,6 @@ const Contact = () => {
 
                 <div className="flex flex-col lg:flex-row sm:mx-auto items-center lg:items-start space-y-4 w-full lg:space-y-0 lg:space-x-8 py-8 sm:place-content-center">
                     <ContactForm />
-                    {/* <div className="  items-center justify-center space-y-4 py-8 z-20">
-                        <SocialIcon icon={<FaMapMarkerAlt />} text="Sheikhupura, Pakistan" />
-                        <SocialIcon icon={<FaPhoneAlt />} text="+92 305 3006555" />
-                        <SocialIcon icon={<FaEnvelope />} text="themajidpro@gmail.com" />
-                    </div> */}
 
                     <div className="items-center justify-center space-y-4 py-8 z-20">
                         <SocialIcon icon={<FaMapMarkerAlt />} text="Sheikhupura, Pakistan" type="address" />
