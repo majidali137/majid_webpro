@@ -99,7 +99,7 @@ const PreLoader: React.FC = () => {
                 <span>Welcome!</span>
                 <span> / </span>
                
-                <span className="flex items-center justify-center gap-3"> <Image src="/logo-1.png" width={30} height={30} alt="favicon"/> majid_webpro</span>
+                <span className="flex items-center justify-center gap-3"> <Image src="/logo.png" width={30} height={30} alt="favicon"/> majid_webpro</span>
                 <div className="sub hidden"></div>
             </div>
         </div>
