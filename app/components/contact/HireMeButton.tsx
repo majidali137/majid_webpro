@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaFacebook,FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 const HireMeButton = () => {
@@ -49,7 +49,7 @@ const HireMeButton = () => {
                     whileTap={{ scale: 0.9 }}
                     className="relative px-24 text-xl py-4 bg-[#00000061] border-[#FFD600] text-[#FFD600] font-bold rounded-md border-2  "
                 >
-          HIRE ME!
+                    HIRE ME!
                 </motion.button>
             </Link>
         </div>

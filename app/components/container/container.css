@@ -42,7 +42,7 @@
     height: 100%;
     border-radius: var(--border-radius);
     background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 0%)) padding-box,
-    linear-gradient(var(--angle, 0deg), rgb(255 255 255 / 0%), rgb(255 255 255 / 20%)) border-box;
+        linear-gradient(var(--angle, 0deg), rgb(255 255 255 / 0%), rgb(255 255 255 / 20%)) border-box;
     mask: linear-gradient(#fff, #fff) padding-box, linear-gradient(#fff, #fff);
     mask-composite: exclude;
     border: 2px solid transparent;
@@ -55,7 +55,7 @@
     height: 100%;
     border-radius: var(--border-radius);
     background: radial-gradient(600px circle at var(--cursor-x, 0) var(--cursor-y, 0), rgb(255 255 255 / 70%) 0%, transparent 100%) padding-box,
-    radial-gradient(600px circle at var(--cursor-x, 0) var(--cursor-y, 0), rgb(255 255 255 / 70%) 0%, transparent 100%) border-box;
+        radial-gradient(600px circle at var(--cursor-x, 0) var(--cursor-y, 0), rgb(255 255 255 / 70%) 0%, transparent 100%) border-box;
     mask: linear-gradient(#fff, #fff) padding-box, linear-gradient(#fff, #fff);
     mask-composite: exclude;
     border: 2px solid transparent;

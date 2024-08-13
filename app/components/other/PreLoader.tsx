@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
-import Logo from "../svg/Logo";
 import Image from "next/image";
 
 const PreLoader: React.FC = () => {
@@ -98,8 +97,8 @@ const PreLoader: React.FC = () => {
             >
                 <span>Welcome!</span>
                 <span> / </span>
-               
-                <p className="flex items-center justify-center gap-3"> <Image src="/logo.png" width={30} height={30} alt="favicon"/> <span className="text-[#FFD600]"> majid_webpro</span> </p>
+
+                <p className="flex items-center justify-center gap-3"> <Image src="/logo.png" width={30} height={30} alt="favicon" /> <span className="text-[#FFD600]"> majid_webpro</span> </p>
                 <div className="sub hidden"></div>
             </div>
         </div>

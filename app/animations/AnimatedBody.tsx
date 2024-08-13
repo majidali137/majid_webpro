@@ -1,12 +1,12 @@
-"use client"
+"use client";
 import { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 type AnimatedBodyProps = {
-  text: string;
-  className?: string;
-  delay?: number;
+    text: string;
+    className?: string;
+    delay?: number;
 };
 
 export default function AnimatedBody({

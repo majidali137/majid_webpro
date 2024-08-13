@@ -1,5 +1,5 @@
-"use client"
-import React, { useEffect,Children } from "react";
+"use client";
+import React, { useEffect, Children } from "react";
 import { useAnimation, motion, Variants, Transition } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { IconType } from "react-icons";

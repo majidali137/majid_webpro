@@ -38,10 +38,8 @@ export default class Magnetic {
         });
 
         this.kinetInstance.on("tick", (instances) => {
-            this.element.style.transform = `translate3d(${instances.x.current}px, ${
-                instances.y.current
-            }px, 0) rotateY(${instances.x.current / 2}deg) rotateX(${
-                instances.y.current / 2
+            this.element.style.transform = `translate3d(${instances.x.current}px, ${instances.y.current
+            }px, 0) rotateY(${instances.x.current / 2}deg) rotateX(${instances.y.current / 2
             }deg)`;
             this.onTick && this.onTick();
         });

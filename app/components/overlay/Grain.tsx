@@ -1,10 +1,10 @@
 import React from "react";
 
 type GrainProps = {
-  baseFrequency?: string;
-  numOctaves?: number;
-  w?: number | string;
-  h?: number | string;
+    baseFrequency?: string;
+    numOctaves?: number;
+    w?: number | string;
+    h?: number | string;
 };
 
 const Grain: React.FC<GrainProps> = ({

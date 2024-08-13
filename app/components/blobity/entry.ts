@@ -22,4 +22,4 @@ if (autoStart) {
     }
 }
 
-export {default} from "./Blobity";
+export { default } from "./Blobity";

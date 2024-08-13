@@ -6,7 +6,7 @@ const HeroBackground: React.FC = () => {
             <video className="h-full w-full object-cover" autoPlay={true} playsInline={true} loop muted preload="auto">
                 <source src="/hero-video-3.mp4" type="video/mp4" />
             </video>
-            <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-bg-dark to-transparent"/>
+            <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-bg-dark to-transparent" />
         </div>
     );
 };

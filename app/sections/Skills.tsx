@@ -37,7 +37,7 @@ const Skills = () => {
                             <div className="w-full md:w-1/2 px-8 mb-4">
                                 <ProgressBar skill=" Bootstrap / tailwind css" percentage={100} color="#4caf50" />
                             </div>
-             
+
                             <div className="w-full md:w-1/2 px-8 mb-4">
                                 <ProgressBar skill="JavaScript" percentage={95} color="#00bcd4" />
                             </div>
@@ -47,7 +47,7 @@ const Skills = () => {
                             <div className="w-full md:w-1/2 px-8 mb-4">
                                 <ProgressBar skill="Next js / typescript" percentage={100} color="#4caf50" />
                             </div>
-              
+
                             <div className="w-full md:w-1/2 px-8 mb-4">
                                 <ProgressBar skill="Node js" percentage={80} color="#ff9800" />
                             </div>
@@ -60,7 +60,7 @@ const Skills = () => {
                             <div className="w-full md:w-1/2 px-8 mb-4">
                                 <ProgressBar skill="Astro js / alpine js" percentage={80} color="#ff9800" />
                             </div>
-              
+
                             <div className="w-full md:w-1/2 px-8 mb-4">
                                 <ProgressBar skill="mongodb / postgresql / app write" percentage={90} color="#FFD600" />
                             </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                             <div className="w-full md:w-1/2 px-8 mb-4">
                                 <ProgressBar skill="github" percentage={100} color="#4caf50" />
                             </div>
-              
+
                         </div>
                     </div>
 

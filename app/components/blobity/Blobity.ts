@@ -4,26 +4,26 @@ import { Color, convertColor, isGradient, positive } from "./helpers";
 import Magnetic from "./Magnetic";
 
 export type Options = {
-  licenseKey: string | null;
-  color: string | string[];
-  opacity: number;
-  size: number;
-  focusableElements: string;
-  focusableElementsOffsetX: number;
-  focusableElementsOffsetY: number;
-  zIndex: number;
-  invert: boolean;
-  dotColor: string | null;
-  dotSize: number;
-  magnetic: boolean;
-  mode: "normal" | "bouncy" | "slow";
-  radius: number;
-  font: string;
-  fontWeight: number;
-  fontSize: number;
-  fontColor: string;
-  tooltipPadding: number;
-  kineticMorphing: boolean;
+    licenseKey: string | null;
+    color: string | string[];
+    opacity: number;
+    size: number;
+    focusableElements: string;
+    focusableElementsOffsetX: number;
+    focusableElementsOffsetY: number;
+    zIndex: number;
+    invert: boolean;
+    dotColor: string | null;
+    dotSize: number;
+    magnetic: boolean;
+    mode: "normal" | "bouncy" | "slow";
+    radius: number;
+    font: string;
+    fontWeight: number;
+    fontSize: number;
+    fontColor: string;
+    tooltipPadding: number;
+    kineticMorphing: boolean;
 };
 export default class Blobity {
     private readonly canvas: HTMLCanvasElement;
@@ -36,7 +36,7 @@ export default class Blobity {
         licenseKey: null,
         size: 40,
         focusableElements:
-      "[data-blobity], a:not([data-no-blobity]), button:not([data-no-blobity]), [data-blobity-tooltip]",
+            "[data-blobity], a:not([data-no-blobity]), button:not([data-no-blobity]), [data-blobity-tooltip]",
         focusableElementsOffsetX: 0,
         focusableElementsOffsetY: 0,
         zIndex: -1,
@@ -183,7 +183,7 @@ export default class Blobity {
                     mutation.removedNodes.forEach((el: any) => {
                         if (
                             el === this.stickedToElement ||
-              el.contains(this.stickedToElement)
+                            el.contains(this.stickedToElement)
                         ) {
                             this.resetStickedToElement();
                             this.resetStickedToElementMutationObserver();
@@ -258,9 +258,9 @@ export default class Blobity {
                 .filter(([name]) => name !== "scale")
                 .forEach(([, instance]) => {
                     instance._friction =
-            1 - this.kinetPresets[this.options.mode].friction;
+                        1 - this.kinetPresets[this.options.mode].friction;
                     instance._acceleration =
-            this.kinetPresets[this.options.mode].acceleration;
+                        this.kinetPresets[this.options.mode].acceleration;
                 });
 
             if (!this.stickedToElement && !this.sticketToElementTooltip) {
@@ -331,8 +331,8 @@ export default class Blobity {
     };
 
     private disable = () => {
-    // sometimes we can have false positive enable called right after
-    // so we save the time here so we can prevent it in enable method
+        // sometimes we can have false positive enable called right after
+        // so we save the time here so we can prevent it in enable method
         this.disableTimeStamp = Date.now();
 
         this.isActive = false;
@@ -427,13 +427,13 @@ export default class Blobity {
                 if (!this.reduceMotionSetting) {
                     if (
                         magnetic === "true" ||
-            (this.options.magnetic && magnetic !== "false")
+                        (this.options.magnetic && magnetic !== "false")
                     ) {
                         this.currentMagnetic = new Magnetic(element);
                         this.currentMagnetic.onTick = () => {
                             if (
                                 !this.activeTooltip &&
-                this.activeFocusedElement === element
+                                this.activeFocusedElement === element
                             ) {
                                 const { width, height, x, y } = element.getBoundingClientRect();
                                 const radius = element.getAttribute("data-blobity-radius");
@@ -580,11 +580,11 @@ export default class Blobity {
             x,
             y,
         }: {
-      width: number;
-      height: number;
-      x: number;
-      y: number;
-    },
+            width: number;
+            height: number;
+            x: number;
+            y: number;
+        },
         radius: number
     ) {
         if (this.disablingStickedToElementTimeout) {
@@ -642,11 +642,11 @@ export default class Blobity {
         x = x * window.devicePixelRatio;
         y = y * window.devicePixelRatio;
         width =
-      (this.activeTooltip ? width : Math.max(width, maxDelta)) *
-      window.devicePixelRatio;
+            (this.activeTooltip ? width : Math.max(width, maxDelta)) *
+            window.devicePixelRatio;
         height =
-      (this.activeTooltip ? height : Math.max(height, maxDelta)) *
-      window.devicePixelRatio;
+            (this.activeTooltip ? height : Math.max(height, maxDelta)) *
+            window.devicePixelRatio;
         radius = radius * window.devicePixelRatio;
         velocityX = velocityX * window.devicePixelRatio;
         velocityY = velocityY * window.devicePixelRatio;
@@ -662,11 +662,11 @@ export default class Blobity {
             ctx.translate(-width, -height);
 
             const activateBlur =
-        this.options.kineticMorphing &&
-        Math.abs(width - this.options.size * window.devicePixelRatio) < 10 &&
-        Math.abs(height - this.options.size * window.devicePixelRatio) < 10 &&
-        Math.abs(radius - (this.options.size * window.devicePixelRatio) / 2) <
-          10;
+                this.options.kineticMorphing &&
+                Math.abs(width - this.options.size * window.devicePixelRatio) < 10 &&
+                Math.abs(height - this.options.size * window.devicePixelRatio) < 10 &&
+                Math.abs(radius - (this.options.size * window.devicePixelRatio) / 2) <
+                10;
 
             if (activateBlur) {
                 const angle = (Math.atan2(velocityY, velocityX) * 180) / Math.PI + 180;
@@ -680,7 +680,7 @@ export default class Blobity {
                 ? Math.min(
                     Math.sqrt(
                         Math.pow(Math.abs(velocityX), 2) +
-                    Math.pow(Math.abs(velocityY), 2)
+                        Math.pow(Math.abs(velocityY), 2)
                     ) * 2, // so the distortion starts sooner
                     60 // shape becomes too distorted once velocity is too big
                 ) / 2
@@ -732,8 +732,7 @@ export default class Blobity {
 
                 this.ctx.textBaseline = "top";
                 this.ctx.textAlign = "left";
-                this.ctx.font = `${this.options.fontWeight} ${
-                    this.options.fontSize * window.devicePixelRatio * (scale / 100)
+                this.ctx.font = `${this.options.fontWeight} ${this.options.fontSize * window.devicePixelRatio * (scale / 100)
                 }px ${this.options.font}`;
                 ctx.fillStyle = `rgba(
                     ${this.fontColor.r}, ${this.fontColor.g}, 
@@ -741,9 +740,9 @@ export default class Blobity {
                 ctx.fillText(
                     this.activeTooltip,
                     this.options.tooltipPadding * window.devicePixelRatio -
-            ((scale - 100) / 100) * width,
+                    ((scale - 100) / 100) * width,
                     this.options.tooltipPadding * window.devicePixelRatio -
-            ((scale - 100) / 100) * height
+                    ((scale - 100) / 100) * height
                 );
             }
         }

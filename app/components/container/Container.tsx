@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React, { useState, useRef } from "react";
 import Grain from "../overlay/Grain";
 import "./container.css";
-import {useEventListener} from "usehooks-ts";
+import { useEventListener } from "usehooks-ts";
 
 type CustomCSSProperties = React.CSSProperties & {
     "--width"?: string | number;
@@ -122,7 +122,7 @@ const Container: React.FC<ContainerProps> = ({
             <div className="border" />
             <div className="border-highlight" />
             <div className="grain">
-                <Grain baseFrequency={baseFrequency} numOctaves={numOctaves} w={width} h={height}/>
+                <Grain baseFrequency={baseFrequency} numOctaves={numOctaves} w={width} h={height} />
             </div>
         </div>
     );

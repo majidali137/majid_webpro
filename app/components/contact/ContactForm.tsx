@@ -4,16 +4,16 @@ import { useState } from 'react';
 // import emailjs from 'emailjs-com';
 import { sendForm } from 'emailjs-com';
 import { formSchema } from '../../../lib/validation';
-import {z} from 'zod';
+import { z } from 'zod';
 import { motion } from 'framer-motion';
 
 
 interface FormDataType {
-  user_name: string;
-  company_name: string;
-  user_email: string;
-  phone_number: string;
-  message: string;
+    user_name: string;
+    company_name: string;
+    user_email: string;
+    phone_number: string;
+    message: string;
 }
 
 const initialState: FormDataType = {
@@ -25,14 +25,14 @@ const initialState: FormDataType = {
 };
 
 interface AlertProps {
-  message: string;
-  type: 'success' | 'error'; // Restrict type to specific string values
+    message: string;
+    type: 'success' | 'error'; // Restrict type to specific string values
 }
 
 interface AlertState {
-  show: boolean;
-  message: string;
-  type: 'success' | 'error';
+    show: boolean;
+    message: string;
+    type: 'success' | 'error';
 }
 
 

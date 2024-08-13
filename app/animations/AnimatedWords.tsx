@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 type AnimatedWordsProps = {
-  title: string;
-  style: string;
+    title: string;
+    style: string;
 };
 
 const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, style }) => {

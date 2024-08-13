@@ -6,7 +6,7 @@ import { SiTypescript, SiReact, SiTailwindcss, SiNextdotjs, SiAstro } from 'reac
 import { BsBootstrap } from 'react-icons/bs';
 
 const icons = [
-    FaHtml5, IoLogoJavascript, SiTypescript, SiReact, SiTailwindcss, SiNextdotjs, BsBootstrap, FaWordpressSimple,SiAstro
+    FaHtml5, IoLogoJavascript, SiTypescript, SiReact, SiTailwindcss, SiNextdotjs, BsBootstrap, FaWordpressSimple, SiAstro
 ];
 
 const FrontendMovingBar = () => {

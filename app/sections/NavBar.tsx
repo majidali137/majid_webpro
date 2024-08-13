@@ -88,7 +88,7 @@ const NavBar = () => {
                         aria-label="Scroll to Contact "
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-                        CONTACT
+                            CONTACT
                         </h4>
                     </Link>
                 </nav>

@@ -44,10 +44,10 @@ const Hero = () => {
             </motion.section>
 
 
-        
+
         </>
-           
-           
+
+
     );
 };
 

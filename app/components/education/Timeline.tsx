@@ -6,15 +6,15 @@ interface Stage {
     period: string;
     description: string;
     name: string;
-  }
-  
-  interface TimelineEntryProps extends Stage {
+}
+
+interface TimelineEntryProps extends Stage {
     leftSide: boolean;
-  }
-  
-  interface TimelineProps {
+}
+
+interface TimelineProps {
     stages: Stage[];
-  }
+}
 const TimelineEntry: React.FC<TimelineEntryProps> = ({ title, period, description, name, leftSide }) => {
     return (
         <div className={`flex ${leftSide ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center`}>
@@ -59,7 +59,7 @@ const Timeline: React.FC<TimelineProps> = ({ stages }) => {
             <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-1 bg-gray-400 h-full"></div>
             {/* Vertical line for mobile screens, right-aligned */}
             <div className="hidden "></div>
-      
+
             {stages.map((stage, index) => (
                 <TimelineEntry
                     key={index}

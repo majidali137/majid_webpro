@@ -28,10 +28,10 @@ const ServicesCard = ({
                 left="0px"
                 angle={0}
             >
-                
+
 
                 <div
-                    className="absolute text-white mb-5  md:mb-8 lg:mb-10 " 
+                    className="absolute text-white mb-5  md:mb-8 lg:mb-10 "
                 >
                     <Image
                         src={icon}
@@ -39,7 +39,7 @@ const ServicesCard = ({
                         width={100}
                         height={100}
                         className="rounded-full mx-auto mt-16 mb-6"
-                    
+
                     />
                     <AnimatedTitle
                         text={name}

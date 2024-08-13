@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useRef } from 'react';
-import {  SiPostgresql, SiMysql, SiMongodb, SiNodedotjs, SiAppwrite, SiTwilio } from 'react-icons/si';
+import { SiPostgresql, SiMysql, SiMongodb, SiNodedotjs, SiAppwrite, SiTwilio } from 'react-icons/si';
 import { RiSupabaseFill } from "react-icons/ri";
-import { FaPhp,FaCcStripe  } from "react-icons/fa";
+import { FaPhp, FaCcStripe } from "react-icons/fa";
 
 
 const icons = [
-    SiPostgresql, SiMysql, SiMongodb, SiNodedotjs, SiAppwrite, SiTwilio, RiSupabaseFill,FaPhp,FaCcStripe 
+    SiPostgresql, SiMysql, SiMongodb, SiNodedotjs, SiAppwrite, SiTwilio, RiSupabaseFill, FaPhp, FaCcStripe
 ];
 
 const BackendMovingBar = () => {
