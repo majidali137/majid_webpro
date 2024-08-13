@@ -19,7 +19,7 @@ const Hero = () => {
                 <HeroBackground />
 
 
-                <div className="my-auto  mt-[200px] sm:mt-0 flex flex-col items-center justify-center ">
+                <div className="my-auto  mt-[150px] sm:mt-0 flex flex-col items-center justify-center ">
 
                     <div
                         className={`relative mt-2 flex flex-col items-center justify-center ${inter.className} pointer-events-none`}
