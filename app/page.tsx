@@ -11,7 +11,6 @@ import Color from "./components/overlay/Color";
 import NavBar from "./sections/NavBar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-import Work from "./sections/Work";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Tools from "./sections/Tools.tsx";
@@ -66,12 +65,11 @@ export default function Home() {
             <Color />
             <NavBar />
             <main
-                className={`flex flex-col items-center justify-center bg-black ${isMobile ? 'mobile-class' : 'desktop-class'}`}
+                className={`flex flex-col items-center justify-center bg-[#0E1016] ${isMobile ? 'mobile-class' : 'desktop-class'}`}
             >
                 <Hero />
                 <About />
                 <Services />
-                <Work />
                 <Tools />
                 <Eduction />
                 <Skills />

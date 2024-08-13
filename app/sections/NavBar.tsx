@@ -49,10 +49,12 @@ const NavBar = () => {
                     </Link> */}
 
                     <Link
-                        href="#work"
+                        href="/work"
                         data-blobity-magnetic="false"
-                        onClick={handleScroll}
+                        // onClick={handleScroll}
                         aria-label="Scroll to Work Work"
+                        target="_blank"
+                        prefetch={false}
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
                             WORK

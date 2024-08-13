@@ -6,7 +6,7 @@ import ProgressBar from '../components/skills/ProgressBar';
 const Skills = () => {
     return (
         <section
-            className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center  pb-20  md:pb-44  lg:pb-56"
+            className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center  pb-20 sm:pb-24"
             id="skills"
         >
 
@@ -19,14 +19,14 @@ const Skills = () => {
                             "mb-10 text-center text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-8 md:text-[60px] lg:text-[80px]"
                         }
                         subtitle="Proficient in full-stack web development, specializing in creating responsive, user-friendly websites that drive business success."
-                        subClassName="mt-4 mb-5 text-justify sm:mt-0 text-left  text-[18px] sm:text-[20px] md:mb-10 md:text-[35px] lg:text-[20px] font-medium"
+                        subClassName="mt-4 mb-5 text-justify sm:mt-0 text-left  text-[18px] sm:text-[20px] md:mb-10 md:text-[20px] lg:text-[20px] font-medium"
                         wordSpace={"mr-[10px]"}
                         charSpace={"mr-[0.0001em]"}
                     />
 
                 </div>
 
-                <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center pt-6 sm:pt-10">
+                <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center pt-6 sm:pt-1">
 
 
                     <div className="space-y-4 p-4 max-w-screen-xl mx-auto">

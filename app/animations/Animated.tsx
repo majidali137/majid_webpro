@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect,Children } from "react";
 import { useAnimation, motion, Variants, Transition } from "framer-motion";
 import { useInView } from "react-intersection-observer";

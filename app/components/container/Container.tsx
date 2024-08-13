@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useRef } from "react";
 import Grain from "../overlay/Grain";
 import "./container.css";

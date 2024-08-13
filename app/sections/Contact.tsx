@@ -11,7 +11,7 @@ import SocialIcon from "../components/contact/SocialIcon";
 
 const Contact = () => {
     return (
-        <section id="contact" className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center  pb-12  md:pb-44  lg:pb-30">
+        <section id="contact" className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center ">
             <motion.section
                 className="relative z-10  h-full w-full "
                 id="contact"

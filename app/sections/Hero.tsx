@@ -11,7 +11,7 @@ const Hero = () => {
 
         <>
             <motion.section
-                className="relative z-10 h-[85vh] sm:h-[100vh] w-full justify-center "
+                className="relative h-[90vh] sm:h-full  z-10 py-16 sm:py-27 md:py-24 lg:py-26 lg:pt-36 w-full justify-center "
                 id="home"
                 initial="initial"
                 animate="animate"
@@ -19,18 +19,18 @@ const Hero = () => {
                 <HeroBackground />
 
 
-                <div className="mt-10  flex flex-col items-center justify-center sm:mt-14">
+                <div className="my-auto  mt-[200px] sm:mt-0 flex flex-col items-center justify-center ">
 
                     <div
-                        className={`relative mt-28 flex flex-col items-center justify-center ${inter.className} pointer-events-none`}
+                        className={`relative mt-2 flex flex-col items-center justify-center ${inter.className} pointer-events-none`}
                     >
                         <AnimatedTitle
                             text={"Hi I'm Majid Ali."}
                             className={
-                                "mb-1 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-10 md:text-[60px] lg:text-[80px]"
+                                "py-[10px] text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] sm:py-[20px]  md:text-[60px] lg:text-[80px]"
                             }
                             subtitle={"Full Stack Web Developer"}
-                            subClassName="mt-2 sm:mt-1 text-center text-[40px] sm:text-[45px] md:mb-10 md:text-[60px] lg:text-[80px] font-bold leading-[1em] tracking-tighter text-[#FFD600]"
+                            subClassName="py-[10px] sm:mt-1 text-center text-[40px] sm:text-[45px] sm:my-[20px]  md:text-[60px] lg:text-[80px] font-bold leading-[1em] tracking-tighter text-[#FFD600]"
                             wordSpace={"mr-[12px]"}
                             charSpace={"mr-[0.001em]"}
                         />

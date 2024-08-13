@@ -22,7 +22,7 @@ const SocialIcon = ({ icon, text, type }: SocialIconProps) => {
     return (
         <section className="z-20">
             <motion.div
-                className="flex items-center justify-center px-6 py-10 max-w-sm bg-[#00000061] rounded-lg shadow-lg"
+                className="flex items-center justify-center px-12 py-10  w-full bg-[#00000061] rounded-lg shadow-lg"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
             >

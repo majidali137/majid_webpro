@@ -8,7 +8,7 @@ import Image from "next/image";
 const About = () => {
     return (
         <>
-            <div className="flex flex-col sm:flex-row item-center   pt-16  md:pt-20  lg:pt-20  px-4 sm:px-12 bg-[#0E1016] bg-cover">
+            <div className="flex flex-col lg:flex-row item-center   pt-16  md:pt-20  lg:pt-20  px-4 sm:px-12 bg-[#0E1016] bg-cover">
 
 
                 {/* Description section */}
@@ -54,7 +54,7 @@ const About = () => {
                         alt="majid ali"
                         width={1000}
                         height={1000}
-                        className="rounded-[25px] bg-[#2d2f34d2] "
+                        className="rounded-[25px] bg-[#303238d2] "
                     />
 
                 </div>

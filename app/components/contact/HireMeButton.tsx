@@ -14,7 +14,7 @@ const HireMeButton = () => {
     };
     return (
 
-        <div className="flex flex-col items-center justify-center  z-30 relative mt-10 sm:mt-0">
+        <div className="flex flex-col items-center justify-center  z-30 relative mt-3 sm:mt-0">
 
             <div className="flex space-x-4 mb-14">
                 <a href="https://www.facebook.com/profile.php?id=100010164333532" target="_blank" rel="noopener noreferrer" className="text-[#FFD600]">

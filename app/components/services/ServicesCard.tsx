@@ -13,7 +13,7 @@ const ServicesCard = ({
 }: ServicesProps) => {
     return (
         <motion.div
-            className={`relative  bg-cover bg-no-repeat bg-center z-10 h-[400px] w-full items-stretch justify-center py-0 sm:h-[600px] sm:w-[100%] md:h-[550px] md:w-[100%] lg:h-[400px]`}
+            className={`relative  bg-cover bg-no-repeat bg-center z-10 h-[400px] w-full items-stretch justify-center py-0 sm:h-[350px] sm:w-[100%] md:h-[400px] md:w-[100%] lg:h-[400px]`}
             initial="initial"
             animate="animate"
         >
@@ -31,7 +31,7 @@ const ServicesCard = ({
                 
 
                 <div
-                    className="absolute text-white mb-10  md:mb-16 lg:mb-14 " 
+                    className="absolute text-white mb-5  md:mb-8 lg:mb-10 " 
                 >
                     <Image
                         src={icon}
