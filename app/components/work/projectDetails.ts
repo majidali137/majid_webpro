@@ -32,7 +32,7 @@ export const projects = [
         id: 0,
         name: "Power Flow",
         description:
-            "open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+            "Power Flow is a full-stack Q&A platform built with Next.js, Tailwind CSS, and MongoDB, offering functionalities similar to Stack Overflow.",
         technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, DiMongodb],
         techNames: ["Full Stack"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.mongodb.com/"],
@@ -46,7 +46,7 @@ export const projects = [
         id: 1,
         name: "Imaginify",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
+            "Imaginify is a full-stack AI-powered image editing app built with Next.js, Tailwind CSS, and MongoDB for seamless design.",
         technologies: [SiTypescript, SiReact, SiNextdotjs, DiMongodb, FaCcStripe],
         techNames: ["Full Stack"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://www.mongodb.com/", "https://stripe.com/"],
@@ -59,7 +59,7 @@ export const projects = [
         id: 2,
         name: "Portfolio",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
+            "Showcase your work with a sleek, modern portfolio built using React.js and styled with Tailwind CSS for a dynamic, responsive design.",
         technologies: [SiReact, SiTailwindcss, SiRedux, SiHeadlessui],
         techNames: ["Full Stack"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://www.mongodb.com/", "https://stripe.com/"],
@@ -75,7 +75,7 @@ export const projects = [
         id: 3,
         name: "Power Funnels",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
+            "Power Funnels is a WordPress-based digital marketing agency specializing in creating high-converting sales funnels and marketing strategies.",
         technologies: [FaWordpress, FaElementor, FaPhp],
         techNames: ["WordPress"],
         techLinks: ["https://astro.build/", "https://www.typescriptlang.org/", "https://reactjs.org/"],
@@ -89,7 +89,7 @@ export const projects = [
         id: 4,
         name: "TRT Colombia",
         description:
-            "This website was built with WordPress by using elementor and fully animated.",
+            "TRT Colombia: A WordPress-based platform for scheduling online doctor appointments, providing seamless access to medical consultations in Colombia.",
         technologies: [FaWordpress, FaElementor, FaPhp, SiMysql],
         techNames: ["WordPress"],
         techLinks: ["https://wordpress.org/", "https://elementor.com/", "https://www.mysql.com/", "https://php.org/"],
@@ -102,7 +102,7 @@ export const projects = [
         id: 5,
         name: "Vitality Tulsa Physical Therapy",
         description:
-            "This website was built with WordPress by using elementor and fully animated.",
+            "Vitality Tulsa Physical Therapy: A WordPress site offering expert physical therapy services in Tulsa, featuring user-friendly appointment scheduling and information.",
         technologies: [FaWordpress, FaElementor, SiMysql, FaPhp],
         techNames: ["WordPress"],
         techLinks: ["https://wordpress.org/", "https://elementor.com/", "https://www.mysql.com/", "https://php.org/"],
@@ -115,12 +115,12 @@ export const projects = [
         id: 6,
         name: "Lee Futcher",
         description:
-            "This website was built with WordPress by using elementor and fully animated.",
+            "Lee Futcher’s project, built with WordPress, features a sleek, user-friendly website showcasing professional expertise, services, and portfolio",
         technologies: [FaWordpress, FaElementor, SiMysql, FaPhp],
         techNames: ["WordPress "],
         techLinks: ["https://wordpress.org/", "https://elementor.com/", "https://www.mysql.com/", "https://php.org/"],
         // github: "https://github.com/",
-        demo: "https://vitalitytulsa.com/",
+        demo: "https://leefutcher.com/",
         image: "/projects/leefutcher-banner.jpg",
         available: true,
     },

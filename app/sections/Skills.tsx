@@ -20,7 +20,7 @@ const Skills = () => {
                         }
                         subtitle="Proficient in full-stack web development, specializing in creating responsive, user-friendly websites that drive business success."
                         subClassName="mt-4 mb-5 text-justify sm:mt-0 text-left  text-[18px] sm:text-[20px] md:mb-10 md:text-[20px] lg:text-[20px] font-medium"
-                        wordSpace={"mr-[10px]"}
+                        wordSpace={"mr-[6px]"}
                         charSpace={"mr-[0.0001em]"}
                     />
 

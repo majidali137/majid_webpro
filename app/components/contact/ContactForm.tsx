@@ -112,9 +112,9 @@ export default function ContactForm() {
     };
 
     return (
-        <section className='z-20 md:w-[920px] w-full'>
+        <section className='z-20 md:w-[720px] lg:w-[920px] w-full'>
             {alert.show && <Alert message={alert.message} type={alert.type} />}
-            <form onSubmit={handleSubmit} id="contact" className="space-y-8 divide-y sm:px-10 divide-gray-200 pb-24 py-8 px-12 w-full md:w-[920px]">
+            <form onSubmit={handleSubmit} id="contact" className="space-y-8 divide-y sm:px-10 divide-gray-200 pb-24 py-8 px-12 w-full  lg:w-[920px] md:w-[720px]">
                 <div className="space-y-8 divide-y divide-gray-200">
                     <div className="">
                         <div className="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">

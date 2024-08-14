@@ -20,7 +20,7 @@ export const services = [
         id: 0,
         name: "Next Js",
         description:
-            "open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+            "Build fast, SEO-friendly web applications with Next.js. I offer expert services in creating dynamic, server-rendered, and highly responsive websites.",
         icon: "/next-js.svg"
 
     },
@@ -28,7 +28,7 @@ export const services = [
         id: 2,
         name: "React Js",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
+            "Offering React.js services to build dynamic, responsive web applications with reusable components, ensuring seamless user experiences and efficient performance.",
         technologies: [SiWebgl, SiTypescript, SiReact],
         icon: "/react-js.svg"
 
@@ -37,7 +37,7 @@ export const services = [
         id: 3,
         name: "Node Js",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
+            "Offering efficient Node.js services for scalable backend solutions, real-time applications, and API development. Optimize performance with expert Node.js development.",
         icon: "/node-js.svg"
 
     },
@@ -45,7 +45,7 @@ export const services = [
         id: 4,
         name: "MongoDB",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
+            "Offering expert MongoDB services, including database setup, optimization, scaling, and management, ensuring seamless performance and robust data security.",
         icon: "/mongodb.svg"
     },
 

@@ -19,7 +19,7 @@ const Services = () => {
                         }
                         subtitle="I can provide these services for you. I specialize in these services. I have great experience and high level skills."
                         subClassName="mt-4 mb-5  sm:mt-0 text-left  text-[18px] sm:text-[20px] md:mb-10 md:text-[20px] lg:text-[20px] font-medium"
-                        wordSpace={"mr-[10px]"}
+                        wordSpace={"mr-[6px]"}
                         charSpace={"mr-[0em]"}
                     />
                 </div>

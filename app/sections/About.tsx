@@ -30,11 +30,11 @@ const About = () => {
 
                         <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20 text-justify">
                             <div className="mb-10 flex w-[100%] flex-col gap-4 text-[16px]   leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[18px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[18px] ">
-                                <AnimatedBody text="I am a specialized freelance Web Designer & Developer, Graphics Designer, HTML CSS, Boostrap, Tailwind CSS javaScript, React, WordPress & on-site and off-site SEO Expert. I specialize in developing and marketing superior quality professional React and custom websites for my clients. I can create a website that won’t just suit your requirements but also take care of your budget." />
+                                <AnimatedBody text="I am a specialized full Stack Web Developer, Graphics Designer, HTML CSS, Boostrap, Tailwind CSS javaScript, React, Next js, Node js, WordPress & on-site and off-site SEO Expert. I specialize in developing and marketing superior quality professional Next js, React, and custom websites for my clients. I can create a website that won’t just suit your requirements but also take care of your budget." />
 
                                 <AnimatedBody
                                     delay={0.1}
-                                    text="If you want to discuss any type of projects in React, JavaScript, HTML CSS, Boostrap and Tailwind CSS & WordPress you can easily contact me through the following links.I can create a website that won’t just suit your requirements but also take care of your budget.I have a computer science background, knowledge of architecture planning, and scaling. Feel free to contact me"
+                                    text="If you want to discuss any type of projects in Next Js, React, JavaScript, HTML CSS, Boostrap and Tailwind CSS & WordPress you can easily contact me through the following links.I can create a website that won’t just suit your requirements but also take care of your budget.I have a computer science background, knowledge of architecture planning, and scaling. Feel free to contact me"
                                 />
 
                                 <AnimatedBody
